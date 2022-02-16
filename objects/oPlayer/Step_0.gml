@@ -41,3 +41,8 @@ if (place_meeting(x, y+1, oWall) and (jump))
 yVector = jumpForce;
 }
 
+//Die in a pit
+if (y>= room_height)
+{
+      PlayerDeath();
+}

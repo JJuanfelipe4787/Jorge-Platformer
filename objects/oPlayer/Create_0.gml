@@ -4,6 +4,8 @@
 global.coins = 0;
 global.points = 0;
 
+hp = 5;
+iFrames = false;
 //how many pixels we move per frame
 xSpeed = 4;
 
