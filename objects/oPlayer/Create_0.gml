@@ -3,6 +3,7 @@
 
 global.coins = 0;
 global.points = 0;
+oPlayer.hp = 0;
 
 hp = 5;
 iFrames = false;

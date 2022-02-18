@@ -2,12 +2,12 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerHurt()
 {
-    if (!iFrames)
+    if (!oPlayer.iFrames)
     {
-		iFrames = true;
-		alarm_set(0, 2*room_speed)
-		hp--;
-		if (hp<1)
+		oPlayer.iFrames = true;
+		//alarm_set(0, 2*room_speed)
+		oPlayer.hp-=1;
+		if (oPlayer.hp <1)
 		{
            PlayerDeath();
 		}
