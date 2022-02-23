@@ -1,9 +1,19 @@
 /// @description define variables 
 // You can write your code in this editor
+enum state
+{
+idle,
+walking,
+jumping,
+shooting,
+
+
+}
+state.walking;
 
 global.coins = 0;
 global.points = 0;
-oPlayer.hp = 0;
+oPlayer.oHealth = 0;
 
 hp = 5;
 iFrames = false;
