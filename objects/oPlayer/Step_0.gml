@@ -1,21 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-CheckCollisionsX();
-//if is pressed then right = 1, otherwise right = 0
-CheckInputs();
 
+if (state == state.walking)
 PlayerStateWalking();
 
-yVector = yVector + grv;
-CheckCollisionsY();
 
-y = y + yVector
+else if (state == state.jumping)
+PlayerStateJumping();
 
-
-if (place_meeting(x, y+1, oWall) and (jump))
-{
-PlayerStateJumping()
-}
 
 //Die in a pit
 if (y>= room_height)

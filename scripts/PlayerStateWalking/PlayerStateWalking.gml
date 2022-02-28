@@ -5,20 +5,23 @@ function PlayerStateWalking()
 CheckInputs();
 xDirection = right - left;
 xVector = xSpeed * xDirection;
+
 CheckCollisionsX();
 //if is pressed then right = 1, otherwise right = 0
+x = x + xVector;
 
 yVector = yVector + grv;
 CheckCollisionsY();
-
 y = y + yVector
 
 
-if (place_meeting(x, y+1, oWall) and (jump))
-{
-state
-}
 CheckCollisions();
 x = x + xVector;
 
+
+	if(place_meeting(x, y+1, oWall)  and (jump))
+	{
+	state = state.jumping;
+	
+	}
 }

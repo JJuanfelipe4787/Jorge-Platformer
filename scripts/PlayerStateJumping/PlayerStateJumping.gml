@@ -4,4 +4,9 @@ function PlayerStateJumping()
 {
 yVector = jumpForce;
 
+	if (place_meeting(x, y+1, oWall))
+	{
+		state = state.walking;
+	
+	}
 }
