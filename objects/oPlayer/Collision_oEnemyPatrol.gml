@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if (y<= other.y -other.sprite_height*.1)
+if (y<= other.y -other.sprite_height*.2)
     {
 	    global.points +=100
         yVector = jumpForce;
@@ -10,6 +10,6 @@ if (y<= other.y -other.sprite_height*.1)
 	} 
 	else
 	{
-	x = x - xVector;
-	PlayerHurt();
+		x = x - xVector;
+		PlayerHurt();
 	}

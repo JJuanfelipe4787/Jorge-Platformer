@@ -2,10 +2,10 @@
 // You can write your code in this editor
 enum state
 {
-idle,
-walking,
-jumping,
-shooting,
+	idle,
+	walking,
+	jumping,
+	shooting,
 
 
 }
@@ -18,7 +18,7 @@ oPlayer.oHealth = 0;
 hp = 5;
 iFrames = false;
 //how many pixels we move per frame
-xSpeed = 4;
+xSpeed = 2;
 
 
 xDirection = 0;
