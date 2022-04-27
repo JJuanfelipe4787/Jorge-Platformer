@@ -1,12 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (state == state.walking)
-PlayerStateWalking();
+script_execute(state_array[state]) 
 
-
-else if (state == state.jumping)
-PlayerStateJumping();
 
 
 //Die in a pit

@@ -21,7 +21,7 @@ function PlayerStateWalking()
 
 	if(place_meeting(x, y+1, oWall)  and (jump))
 	{
-	state = state.jumping;
+	state = states.jumping;
 	
 	}
 }

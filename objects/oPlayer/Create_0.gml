@@ -1,15 +1,21 @@
 /// @description define variables 
 // You can write your code in this editor
-enum state
+enum states
 {
-	idle,
 	walking,
 	jumping,
-	shooting,
+	
+
 
 
 }
-state = state.walking;
+
+state_array[states.walking] = PlayerStateWalking;
+state_array[states.jumping] = PlayerStateJumping;
+//state_array[state.walking] = PlayerStateWalking;
+//state_array[state.walking] = PlayerStateWalking;
+
+state = states.walking;
 
 global.coins = 0;
 global.points = 0;
