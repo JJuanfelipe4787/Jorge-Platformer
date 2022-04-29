@@ -2,10 +2,19 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerStateJumping()
 {
-	yVector = jumpForce;
+	if (canjump)
+	{
+		canjump = false;
+		yVector = jumpForce;
+	}
+	MoveX();
+	MoveY();
 
+	yVector = jumpForce;
+	
 	if (place_meeting(x, y+1, oWall))
 	{
+		canjump = true;
 		state = states.walking;
 	
 	}
