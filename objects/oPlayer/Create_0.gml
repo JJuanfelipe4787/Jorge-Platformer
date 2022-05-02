@@ -4,22 +4,27 @@ enum states
 {
 	walking,
 	jumping,
-	idle
-
+	idle,
+	sliding
 
 
 }
 
-state_array[states.walking] = PlayerStateWalking;
-state_array[states.jumping] = PlayerStateJumping;
-state_array[state.idle] = PlayerStateIdle;
-//state_array[state.walking] = PlayerStateWalking;
-
-sprite_array[states.walking] = sPlayerWalking;
-sprite_array[states.jumping] = sPlayerJumping;
 
 state = states.idle;
 
+state_array[states.walking] = PlayerStateWalking;
+state_array[states.jumping] = PlayerStateJumping;
+state_array[states.idle] = PlayerStateIdle;
+state_array[states.sliding] = PlayerStateSliding;
+
+sprite_array[states.walking] = sPlayerWalking;
+sprite_array[states.jumping] = sPlayerJumping;
+sprite_array[states.idle] = sPlayerStateIdle;
+sprite_array[states.sliding] = sPlayerSliding;
+
+
+canslide = true;
 canjump = true;
 global.coins = 0;
 global.points = 0;

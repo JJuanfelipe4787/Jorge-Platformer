@@ -15,4 +15,16 @@ function PlayerStateWalking()
 	state = states.jumping;
 	
 	}
+	
+	if(xDirection == 0)
+	{
+		state = states.idle;
+	}
+	
+	
+	if (place_meeting(x, y+1, oWall))
+	{
+	state = states.sliding
+	}
 }
+

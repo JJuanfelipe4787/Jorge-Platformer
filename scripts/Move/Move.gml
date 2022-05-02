@@ -3,7 +3,7 @@
 function MoveX()
 {
 	CheckInputs();
-	xDirection = right - left;
+	
 	if (xDirection != 0)
 	{
 		image_xscale = xDirection;
