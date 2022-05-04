@@ -9,6 +9,7 @@ if (canslide)
 		canslide = false;
 		xVector = xSpeed;
 	}
+	MoveY();
 	MoveX();
 
 
