@@ -33,7 +33,7 @@ oPlayer.oHealth = 0;
 hp = 5;
 iFrames = false;
 //how many pixels we move per frame
-xSpeed = 4;
+xSpeed = 3;
 
 
 xDirection = 0;

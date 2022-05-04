@@ -22,7 +22,7 @@ function PlayerStateWalking()
 	}
 	
 	
-	if (place_meeting(x, y+1, oWall))
+	if (place_meeting(x, y+1, oWall) and (slide))
 	{
 	state = states.sliding
 	}

@@ -4,17 +4,18 @@ function PlayerStateSliding()
 {
 	CheckInputs();
 	
-if (canslide)
+	if (canslide)
 	{
 		canslide = false;
 		xVector = xSpeed;
 	}
+	x += xVector;
 	MoveY();
 	MoveX();
 
 
 
-if (place_meeting(x, y+1, oWall))
+	if(place_meeting(x, y+1, oWall))
 	{
 		canslide = true;
 		state = states.walking;

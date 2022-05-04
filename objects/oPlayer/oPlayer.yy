@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sPlayerWalking",
+    "path": "sprites/sPlayerWalking/sPlayerWalking.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
