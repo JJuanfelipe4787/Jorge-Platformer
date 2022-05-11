@@ -56,7 +56,7 @@
     "spriteId": {"name":"sPlayerWalking","path":"sprites/sPlayerWalking/sPlayerWalking.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 20.0,
+    "playbackSpeed": 12.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
