@@ -12,7 +12,7 @@ function PlayerStateSliding()
 	x += xVector;
 	MoveY();
 	MoveX();
-
+	physics_fixture_set_friction(fix_Brick, 0.1);
 
 
 	if(place_meeting(x, y+1, oWall))

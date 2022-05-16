@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 1365,
   "bbox_top": 0,
-  "bbox_bottom": 41,
+  "bbox_bottom": 1199,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 42,
+  "width": 1366,
+  "height": 1200,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a9aa0dac-f47c-439a-9839-c710c85b21d2","path":"sprites/sEnemyBasic/sEnemyBasic.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a9aa0dac-f47c-439a-9839-c710c85b21d2","path":"sprites/sEnemyBasic/sEnemyBasic.yy",},"LayerId":{"name":"2fc256eb-8aa2-4662-8be6-b7650ea67997","path":"sprites/sEnemyBasic/sEnemyBasic.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBasic","path":"sprites/sEnemyBasic/sEnemyBasic.yy",},"resourceVersion":"1.0","name":"a9aa0dac-f47c-439a-9839-c710c85b21d2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"22e2b171-0388-44eb-b005-8e701479cfaf","path":"sprites/OutsideBackRound/OutsideBackRound.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"22e2b171-0388-44eb-b005-8e701479cfaf","path":"sprites/OutsideBackRound/OutsideBackRound.yy",},"LayerId":{"name":"390eb722-4e03-42b1-bc8b-5b0b868f2c4e","path":"sprites/OutsideBackRound/OutsideBackRound.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"OutsideBackRound","path":"sprites/OutsideBackRound/OutsideBackRound.yy",},"resourceVersion":"1.0","name":"22e2b171-0388-44eb-b005-8e701479cfaf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sEnemyBasic","path":"sprites/sEnemyBasic/sEnemyBasic.yy",},
+    "spriteId": {"name":"OutsideBackRound","path":"sprites/OutsideBackRound/OutsideBackRound.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f8945bc8-9e02-4951-a3cc-f736a11131d5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a9aa0dac-f47c-439a-9839-c710c85b21d2","path":"sprites/sEnemyBasic/sEnemyBasic.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ae038823-c890-483c-a69b-23b980fca273","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"22e2b171-0388-44eb-b005-8e701479cfaf","path":"sprites/OutsideBackRound/OutsideBackRound.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 16,
-    "yorigin": 21,
+    "xorigin": 683,
+    "yorigin": 600,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sEnemyBasic","path":"sprites/sEnemyBasic/sEnemyBasic.yy",},
+    "parent": {"name":"OutsideBackRound","path":"sprites/OutsideBackRound/OutsideBackRound.yy",},
     "resourceVersion": "1.4",
-    "name": "sEnemyBasic",
+    "name": "OutsideBackRound",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2fc256eb-8aa2-4662-8be6-b7650ea67997","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"390eb722-4e03-42b1-bc8b-5b0b868f2c4e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sEnemyBasic",
+  "name": "OutsideBackRound",
   "tags": [],
   "resourceType": "GMSprite",
 }
