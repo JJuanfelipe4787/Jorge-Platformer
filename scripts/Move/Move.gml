@@ -12,6 +12,7 @@ function MoveX()
 	CheckCollisionsX();
 	//if is pressed then right = 1, otherwise right = 0
 	x = x + xVector;
+	
 }
 
 function MoveY()

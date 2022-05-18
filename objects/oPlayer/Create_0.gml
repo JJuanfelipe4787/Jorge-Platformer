@@ -24,6 +24,7 @@ sprite_array[states.idle] = sPlayerStateIdle;
 sprite_array[states.sliding] = sPlayerSliding;
 
 
+
 canslide = true;
 canjump = true;
 global.coins = 0;
@@ -40,6 +41,7 @@ xDirection = 0;
 
 //multiply speed x direction
 xVector = xSpeed * xDirection;
+
 
 //gravity
 grv = .4;

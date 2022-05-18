@@ -6,6 +6,7 @@
     {"id":{"name":"sPlayerWalking","path":"sprites/sPlayerWalking/sPlayerWalking.yy",},"order":0,},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":2,},
     {"id":{"name":"EnemyHurt","path":"scripts/EnemyHurt/EnemyHurt.yy",},"order":1,},
+    {"id":{"name":"Fixture","path":"scripts/Fixture/Fixture.yy",},"order":9,},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},"order":6,},
     {"id":{"name":"Level4","path":"rooms/Level4/Level4.yy",},"order":9,},
     {"id":{"name":"PlayerStateSliding","path":"scripts/PlayerStateSliding/PlayerStateSliding.yy",},"order":8,},
@@ -27,6 +28,7 @@
     {"id":{"name":"oEnemyProjectile","path":"objects/oEnemyProjectile/oEnemyProjectile.yy",},"order":5,},
     {"id":{"name":"sHeath","path":"sprites/sHeath/sHeath.yy",},"order":7,},
     {"id":{"name":"OutsideBackRound","path":"sprites/OutsideBackRound/OutsideBackRound.yy",},"order":16,},
+    {"id":{"name":"Testing","path":"rooms/Testing/Testing.yy",},"order":11,},
     {"id":{"name":"oLava","path":"objects/oLava/oLava.yy",},"order":12,},
     {"id":{"name":"oSpeedTurret","path":"objects/oSpeedTurret/oSpeedTurret.yy",},"order":13,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
@@ -63,6 +65,7 @@
     {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"roomId":{"name":"Level4","path":"rooms/Level4/Level4.yy",},},
     {"roomId":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
+    {"roomId":{"name":"Testing","path":"rooms/Testing/Testing.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
