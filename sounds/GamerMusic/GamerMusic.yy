@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "GamerMusic.mp3",
-  "duration": 51.22608,
+  "duration": 89.62608,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

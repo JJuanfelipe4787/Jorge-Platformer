@@ -29,8 +29,9 @@ canslide = true;
 canjump = true;
 global.coins = 0;
 global.points = 0;
-global.SFX = 1;
+//global.SFX = 1;
 global.Music = 1;
+global.Pause = 0;
 oPlayer.oHealth = 0;
 
 hp = 5;

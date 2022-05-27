@@ -10,6 +10,7 @@ function PlayerHurt()
 		if (hp<1)
 		{
 			PlayerDeath();
+			DeadSound();
 		}
 	}
 }
