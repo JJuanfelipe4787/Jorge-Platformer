@@ -2,10 +2,12 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function CheckInputs()
 {
-	right = keyboard_check(vk_right);
-	left = keyboard_check(vk_left);
+	left = keyboard_check(ord("A"))
 
-	jump = keyboard_check(vk_up);
+	right = keyboard_check(ord("D"))
+
+	jump = keyboard_check_pressed(vk_up)
+
 	slide = keyboard_check(vk_down);
 	
 	//Climb = keyboard_check(vk_space);

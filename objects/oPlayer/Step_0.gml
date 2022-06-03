@@ -8,5 +8,6 @@ sprite_index = sprite_array[state];
 //Die in a pit
 if (y>= room_height)
 {
-      PlayerDeath();
+	PlayerDeath();
+	DeadSound();
 }

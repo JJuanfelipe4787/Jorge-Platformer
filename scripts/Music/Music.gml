@@ -1,9 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function GameMusic(){
-	PauseMusic();
+function GameMusic()
+{
 	if audio_exists(global.Music)
 			{
+				PauseMusic();
 				audio_play_sound(global.Music, 0, true);
 			}
 	if global.Music
